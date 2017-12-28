@@ -26,11 +26,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
     pole.cpp \
-    game.cpp
+    game.cpp \
+    monster.cpp
 
 HEADERS += \
     pole.h \
-    game.h
+    game.h \
+    monster.h
 
 DISTFILES +=
 
