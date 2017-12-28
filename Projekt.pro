@@ -24,6 +24,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        main.cpp
+        main.cpp \
+    pole.cpp \
+    game.cpp
 
-HEADERS +=
+HEADERS += \
+    pole.h \
+    game.h
+
+DISTFILES +=
+
+RESOURCES += \
+    res.qrc
